@@ -10,10 +10,6 @@ func main() {
 	example.Demo0701()
 	fmt.Println("============Demo0702=========")
 	example.Demo0702()
-	fmt.Println("============Demo603=========")
-	example.Demo603()
-	fmt.Println("============Demo604=========")
-	example.Demo604()
-	fmt.Println("============Demo0405=========")
-	example.Demo0405()
+	fmt.Println("============Demo0703=========")
+	example.Demo0703()
 }
