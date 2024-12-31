@@ -6,14 +6,14 @@ import (
 )
 
 func main() {
-	fmt.Println("============Demo0601=========")
-	example.Demo601()
-	fmt.Println("============Demo0602=========")
-	example.Demo602()
+	fmt.Println("============Demo0701=========")
+	example.Demo0701()
+	fmt.Println("============Demo0702=========")
+	example.Demo0702()
 	fmt.Println("============Demo603=========")
 	example.Demo603()
 	fmt.Println("============Demo604=========")
 	example.Demo604()
-	fmt.Println("============Demo605=========")
-	example.Demo605()
+	fmt.Println("============Demo0405=========")
+	example.Demo0405()
 }
