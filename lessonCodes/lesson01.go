@@ -10,7 +10,7 @@ import (
  * @author:     cola1213
  * @description:变量定义
  */
-func main() {
+func main01() {
 	var name = "cola"
 
 	fmt.Println(name, vesion.Age)
