@@ -7,7 +7,7 @@ import "fmt"
  * @author:     cola1213
  * @description:输入输出
  */
-func main() {
+func main02() {
 	// 自动换行，中间有空格
 	fmt.Println("cola", 12)
 
