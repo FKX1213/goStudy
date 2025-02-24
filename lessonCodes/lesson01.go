@@ -7,35 +7,20 @@ import "fmt"
  * @author:     cola1213
  * @description:变量定义
  */
-// main 包才能执行函数
 func main() {
-	// 先定义，再赋值
-	var name string
-	name = "coco cola" // go 中，声明的变量，必须使用，否则报错：Unused variable 'name'
-	fmt.Println(name)
+	var name1, name2, name3 string = "cola", "cola2", "cola3"
+	fmt.Println(name1, name2, name3)
 
-	// 声明变量的时候就赋值
-	var name1 string = "pepsi cola"
-	fmt.Println(name1)
+	var a1, a2 = 1, 2
+	fmt.Println(a1, a2)
 
-	// 但是其实，声明的时候，可以省略类型，由赋的值直接推断是什么类型
-	var name2 = "diet coke"
-	fmt.Println(name2)
+	b1, b2 := 1, 2
+	fmt.Println(b1, b2)
 
-	// 短声明符号赋值
-	name3 := "zero coke"
-	fmt.Println(name3)
-
-	// 零值
-	var name4 string
-	fmt.Println(name4 + "==")
-
-	fmt.Println(age)
+	fmt.Println(c1, c2)
 }
 
-var age = 12
-
-func hello() {
-	fmt.Println("hello")
-	fmt.Println(age)
-}
+var (
+	c1 = 1
+	c2 = 2
+)
