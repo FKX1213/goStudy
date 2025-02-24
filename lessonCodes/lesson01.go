@@ -30,4 +30,12 @@ func main() {
 	var name4 string
 	fmt.Println(name4 + "==")
 
+	fmt.Println(age)
+}
+
+var age = 12
+
+func hello() {
+	fmt.Println("hello")
+	fmt.Println(age)
 }
