@@ -7,7 +7,7 @@ import "fmt"
  * @author:     cola1213
  * @description:数据类型
  */
-func main() {
+func main03() {
 	var n1 uint8 = 2
 	var n2 uint16 = 2
 	var n3 uint32 = 2
