@@ -7,7 +7,7 @@ import "fmt"
  * @author:     cola1213
  * @description:判断语句
  */
-func main() {
+func main05() {
 	fmt.Println(1 == 1 && 1 == 0) //false
 	fmt.Println(1 == 1 && 1 == 1) //true
 
