@@ -8,20 +8,15 @@ import "fmt"
  * @description:判断语句
  */
 func main() {
-	var age int
-	fmt.Println("请输入你的年龄:")
+	fmt.Println(1 == 1 && 1 == 0) //false
+	fmt.Println(1 == 1 && 1 == 1) //true
 
-	fmt.Scan(&age)
+	fmt.Println("================")
+	fmt.Println(1 == 1 || 1 == 0) //true
+	fmt.Println(1 == 0 || 1 == 0) //false
 
-	switch {
-	case age <= 0:
-		fmt.Println("未出生")
-	case age <= 18:
-		fmt.Println("未成年")
-	case age <= 35:
-		fmt.Println("青年")
-	default:
-		fmt.Println("中年")
-	}
+	fmt.Println("================")
+	fmt.Println(!(1 == 1)) // false
+	fmt.Println(!(1 == 0)) // true
 
 }
