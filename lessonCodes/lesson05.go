@@ -13,17 +13,15 @@ func main() {
 
 	fmt.Scan(&age)
 
-	if age <= 0 {
+	switch {
+	case age <= 0:
 		fmt.Println("未出生")
-		return
-	}
-	if age <= 18 {
+	case age <= 18:
 		fmt.Println("未成年")
-		return
-	}
-	if age <= 35 {
+	case age <= 35:
 		fmt.Println("青年")
-		return
+	default:
+		fmt.Println("中年")
 	}
-	fmt.Println("中年")
+
 }
