@@ -10,7 +10,7 @@ import (
  * @author:     cola1213
  * @description:for语句，例如求1+2+...+100的和
  */
-func main() {
+func main06() {
 	// for 循环
 	var result = 0
 	for i := 1; i <= 100; i++ {
