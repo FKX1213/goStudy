@@ -7,7 +7,7 @@ import "fmt"
  * @author:     cola1213
  * @description:数组、切片、map
  */
-func main() {
+func main04() {
 	// map，声明
 	var map01 map[string]string
 	// 初始化
